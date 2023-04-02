@@ -1,0 +1,65 @@
+/* Estilos para o botão do jogo da velha */
+button.square {
+  background-color: purple;
+  color: blue;
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+div {
+  background-color: rgb(37, 37, 85);
+}
+
+/* Estilos para a div de status */
+div.status {
+  color: rgb(36, 17, 36);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para as linhas do tabuleiro */
+div.board-row {
+  display: flex;
+}
+
+/* Estilos para as listas de movimentos */
+ol {
+  color: rgb(36, 17, 36);
+  font-size: 18px;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+/* Estilos para os itens de lista */
+li {
+  margin-bottom: 5px;
+}
+
+/* Estilos para a div do jogo */
+div.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilos para o tabuleiro do jogo */
+div.game-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+/* Estilos para a div das informações do jogo */
+div.game-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
